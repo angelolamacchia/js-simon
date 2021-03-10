@@ -91,12 +91,11 @@ function isInArray(n,array) {
 function compareArray (array1, array2) {
     var matches = [];
     for (var i=0; i<array1.length; i++) {
-        for ( var e=0; e<array2.length; e++) {
+        for (var e=0; e<array2.length; e++) {
             if (array1[i]==array2[e]) {
                 matches.push(array1[i]);
             }
-        }
-        
+        }    
     }
     return matches;
 }
